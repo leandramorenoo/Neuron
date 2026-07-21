@@ -183,7 +183,15 @@ label:not([for="acceptance"]) {
 
     @media (max-width: 640px) {
         width: 100%;
+
+        &.btn--center {
+            display: block;
+            width: fit-content;
+            margin-inline: auto;
+        }
     }
+
+    
 }
 
 .muted {
