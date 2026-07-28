@@ -1,3 +1,9 @@
+@keyframes fadein {
+    from {opacity: 0%; transform: translateY(5rem); filter: blur(0,5rem);}
+    to {opacity: 100%; transform: translateY(0rem);}
+
+}
+
 :root {
     /* Color */
     --color-main: #4391f0;
@@ -126,6 +132,9 @@ label:not([for="acceptance"]) {
     padding: var(--spacing-xxl) var(--spacing-md);
     max-width: var(--size-max-width);
     margin: 0 auto;
+
+    animation: fadein 1s linear 1 forwards;
+    animation-timeline: view(block 60% 10%);
 
 }
 
