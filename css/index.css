@@ -273,7 +273,7 @@ nav {
 }
 
 .hero__image {
-    background: linear-gradient(7deg, rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 0) 100%), url('../Media/Home-banner.webp');
+    background: linear-gradient(7deg, rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 0) 100%), url('../media/Home-banner.webp');
     background-position: center center;
     background-size: cover;
     /*Idealmente cover para cubrir todo*/
@@ -288,7 +288,7 @@ nav {
     border-radius: var(--radius-sm);
 
     &.hero__image--services {
-        background: linear-gradient(7deg, rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 0) 100%), url('../Media/Services-banner.webp');
+        background: linear-gradient(7deg, rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 0) 100%), url('../media/Services-banner.webp');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -296,7 +296,7 @@ nav {
     }
 
     &.hero__image--about {
-        background: linear-gradient(7deg, rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 0) 100%), url('../Media/About-banner.webp');
+        background: linear-gradient(7deg, rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 0) 100%), url('../media/About-banner.webp');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -304,7 +304,7 @@ nav {
     }
 
     &.hero__image--news {
-        background: linear-gradient(7deg, rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 0) 100%), url('../Media/News-banner.webp');
+        background: linear-gradient(7deg, rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 0) 100%), url('../media/News-banner.webp');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -312,7 +312,7 @@ nav {
     }
 
     &.hero__image--contact {
-        background: linear-gradient(7deg, rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 0) 100%), url('../Media/Contact-banner.webp');
+        background: linear-gradient(7deg, rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 0) 100%), url('../media/Contact-banner.webp');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
